@@ -1,0 +1,50 @@
+
+.navigation-container
+{
+  padding: 0px;
+}
+
+.navbar-item-style > li {
+   padding: 0 4px;
+   text-transform: uppercase;
+}
+
+.navbar-item-style > li > a {
+   font-weight: 600;
+   font-family: 'Raleway', sans-serif;
+}
+
+.navbar-style {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  font-size: 31px;
+	margin: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url('../images/home_background.jpg')no-repeat center fixed ;
+  background-position:center;
+  background-size: cover;
+  padding-top: 20%;
+  text-align: center;
+}
+
+h2.home {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  color: white;
+}
